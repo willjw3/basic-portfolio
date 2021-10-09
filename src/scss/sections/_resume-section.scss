@@ -9,17 +9,19 @@ section.resume-section {
     padding-right: 1rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    max-width: 75rem;
+    max-width: 60rem;
 
     .resume-section-content {
         width: 100%;
     }
 }
 
+
 @include media-breakpoint-up(md) {
     section.resume-section {
         min-height: 100vh;
     }
+    
 }
 
 @include media-breakpoint-up(lg) {
